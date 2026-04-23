@@ -9,7 +9,6 @@ Personal portfolio website for Ravi Kumar Rayapalli, focused on AI engineering, 
 - Editable site content in `data/portfolio.json`
 - Client-side rendering in `app.js`
 - Contact form API in `api/contact.js`
-- Vercel deployment config in `vercel.json`
 
 ## Main files
 

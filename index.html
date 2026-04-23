@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravi Kumar Rayapalli | Portfolio</title>
+    <meta
+      name="description"
+      content="Ravi Kumar Rayapalli is an AI Engineer specializing in LLM systems, agentic workflows, RAG, and scalable backend platforms."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">
+          <span class="brand-mark">RK</span>
+          <span class="brand-text">Ravi Kumar Rayapalli</span>
+        </a>
+        <nav class="nav">
+          <a href="#projects">Experience</a>
+          <a href="#services">Expertise</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow" id="hero-location">California, USA</p>
+            <h1 id="hero-name">Ravi Kumar Rayapalli</h1>
+            <p class="hero-role" id="hero-role">AI Engineer specializing in LLM systems, agentic architectures, and retrieval-augmented generation.</p>
+            <p class="hero-summary" id="hero-summary">
+              I build production-grade AI applications with multi-agent workflows, hybrid retrieval, knowledge graphs, and scalable backend services across cloud environments.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" id="primary-cta" href="#contact">Contact me</a>
+              <a class="button button-secondary" id="secondary-cta" href="#projects">See my work</a>
+              <a class="button button-secondary" id="resume-cta" href="/resume/Ravi_Kumar_Rayapalli_Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+            </div>
+            <ul class="hero-stats" id="hero-stats"></ul>
+          </div>
+          <aside class="hero-card">
+            <div class="portrait-glow"></div>
+            <div class="hero-panel">
+              <p class="panel-label">Current focus</p>
+              <h2>Production-minded AI engineering across LLM systems, retrieval pipelines, and scalable backend architecture.</h2>
+              <div class="availability">
+                <span class="availability-dot"></span>
+                <span id="availability-text">Open to AI engineering and backend platform opportunities</span>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="feature-band" id="highlights"></section>
+
+        <section class="section two-column" id="about">
+          <div>
+            <p class="section-label">About</p>
+            <h2>Deep backend experience paired with current hands-on work in LLM systems, RAG, and agentic orchestration.</h2>
+          </div>
+          <div class="about-copy">
+            <p id="about-bio"></p>
+            <div class="signature-card">
+              <p class="panel-label">Core stack</p>
+              <p id="about-stack"></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Technical Skills</p>
+              <h2>The tools, platforms, and frameworks I use to build production-grade AI and backend systems.</h2>
+            </div>
+          </div>
+          <div class="skills-grid" id="skills-grid"></div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Experience Highlights</p>
+              <h2>Recent work across legal AI, talent screening agents, and scalable backend systems.</h2>
+            </div>
+          </div>
+          <div class="project-grid" id="project-grid"></div>
+        </section>
+
+        <section class="section" id="services">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Core Expertise</p>
+              <h2>Technical areas where I bring the most depth and practical experience.</h2>
+            </div>
+          </div>
+          <div class="service-grid" id="service-grid"></div>
+        </section>
+
+        <section class="section" id="process">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Approach</p>
+              <h2>How I build systems that stay grounded, observable, and production-ready.</h2>
+            </div>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </section>
+
+        <section class="section" id="testimonials">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Credentials</p>
+              <h2>Education, certifications, and signals that support the engineering story.</h2>
+            </div>
+          </div>
+          <div class="testimonial-grid" id="testimonial-grid"></div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="contact-copy">
+            <p class="section-label">Contact</p>
+            <h2>Bring me the AI platform, backend challenge, or role where thoughtful engineering matters.</h2>
+            <p id="contact-intro">
+              Tell me about the role, the AI platform, or the backend problem you want help building.
+            </p>
+            <div class="contact-links" id="contact-links"></div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Role or project type
+              <input type="text" name="projectType" placeholder="AI Engineer role, backend platform, agent workflow..." required />
+            </label>
+            <label>
+              Company or timeline
+              <input type="text" name="budget" placeholder="Company name, hiring timeline, or project timing..." />
+            </label>
+            <label>
+              Message
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Share the role, team context, project scope, or the technical problem you want to solve."
+                required
+              ></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Send inquiry</button>
+            <p class="form-note" id="form-status" aria-live="polite"></p>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

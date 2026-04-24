@@ -1,0 +1,8 @@
+{
+  "name": "ravi-rayapalli-portfolio",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  }
+}

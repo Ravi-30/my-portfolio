@@ -1,4 +1,4 @@
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   if (req.method === "OPTIONS") {
     res.status(204).end();
     return;
@@ -62,4 +62,4 @@ module.exports = async (req, res) => {
       error: "Your message could not be sent right now. Please try again in a moment."
     });
   }
-};
+}

@@ -6,7 +6,7 @@ const fallbackPortfolio = {
     summary:
       "I build production-grade AI applications with multi-agent workflows, hybrid retrieval, knowledge graphs, and scalable backend services across cloud environments.",
     availability: "Open to AI engineering and backend platform opportunities",
-    stats: ["8 years of engineering experience", "LLM, RAG, and agent systems", "GCP, AWS, Docker, Kubernetes"]
+    stats: ["7 years of engineering experience", "LLM, RAG, and agent systems", "GCP, AWS, Docker, Kubernetes"]
   },
   about: {
     bio:
@@ -74,7 +74,7 @@ const fallbackPortfolio = {
       title: "Scalable Backend Platforms",
       year: "2017-2025",
       summary: "Built and led backend platforms across startups and enterprise teams using Node.js, Python, Java, microservices, data pipelines, cloud infrastructure, and containerized deployments.",
-      metric: "8 years across product and enterprise engineering",
+      metric: "7 years across product and enterprise engineering",
       tags: ["Node.js", "Python", "Microservices", "Cloud"],
       outcome: "Delivered scalable services, data processing systems, CI/CD workflows, and production integrations across healthcare, recruiting, analytics, and enterprise products."
     }
